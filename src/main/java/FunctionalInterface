@@ -1,0 +1,29 @@
+Types of Functional interface....
+if in a functional interface,
+Runnable :If the abstract method is not taking any values and not returning any values, then it is called a runnable method.
+Ex: void print();// it is not taking any values and not returning any values. It is just running something.
+
+Mapping: int multiplyByTwo(int x) will take a value and do some transformation on the value and return the same
+type of value. This type of interfaces are called mapping.  This is also called as mapper function.
+
+Consumer : void consume(int x);// it is a consumer. It is taking a value and returning nothing.THis interface is called
+a consumer.
+
+Producer : int produce(); It is a producer. It is not taking any values, but returning a value. Then the interface will
+be called a producer.
+
+Predicate: boolean check();
+
+lambda is called as anonymous function(function with no name) in Java.
+
+Stream is a pipeline which allows data to flow through it. All the data in a list for example
+List<Integer> list=Arrays.asList(2,5,7,9,4); these data will be converted into a data pipeline.
+
+** practice the Stream API.
+
+
+** with functional programming, we are able to store a function(lambda) in a variable. We are able to pass the function
+within the methods.
+
+
+
